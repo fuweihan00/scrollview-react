@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+}
+
+.scrollView{
+  height: 100vh;
+}
+
+.listItem{
+  line-height: 50px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+.loadItem{
+  line-height: 30px;
+  text-align: center;
+  background: orange;
+  color: wheat;
+}
+
+.toTopBtn{
+  line-height: 70px;
+  width: 70px;
+  text-align: center;
+  background-color: orange;
+  color: white;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
